@@ -1,0 +1,97 @@
+Linguagem de Programação
+
+Nome: Fernando Vieira Rabelo
+
+	
+1. Soma
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+
+resultado = num1 + num2
+
+print("A soma é:", resultado)
+
+-----------------------------------------------------------------------------------------------------
+
+2. Milimetros
+num1 = int(input("Digite o valor em metros: "))
+resultado = num1 * 1000
+print("A quantidade em milimetros é:", resultado)
+
+-----------------------------------------------------------------------------------------------------
+
+3. Segundos
+dias = int(input("Digite a quantidade de dias: "))
+horas = int(input("Digite a quantidade de horas: "))
+minutos = int(input("Digite a quantidade de minutos: "))
+segundos = int(input("Digite a quantidade de segundos: "))
+total_em_segundos = (dias * 24 * 3600) + (horas * 3600) + (minutos * 60) + segundos
+print("O total de segundos é:", total_em_segundos)
+
+-----------------------------------------------------------------------------------------------------
+
+4. Salario
+salario = float(input("Digite o valor do salario: "))
+porcentagem = float(input("Digite a porcentagem de aumento: "))
+
+valor_aumento = salario * (porcentagem / 100)
+novo_salario = salario + valor_aumento
+
+print ("O valor do aumento é: ", valor_aumento)
+print ("O novo salario é: ", novo_salario)
+
+------------------------------------------------------------------------------------------------------
+
+5. Desconto
+preço_mercadoria = float(input("Digite o preço da mercadoria: "))
+desconto = float(input("Digite o percentual de desconto: "))
+
+calculo = preço_mercadoria * (desconto / 100)
+descontando = preço_mercadoria - calculo
+
+print ("O valor do desconto é ", calculo)
+print ("O preço a pagar pela mercadoria é", descontando)
+
+------------------------------------------------------------------------------------------------------
+
+6. Viagem
+distancia = float(input("Qual é a distancia da viagem? "))
+velocidade = float(input("Qual será a veociadade media no percurso? "))
+
+tempo_da_viagem = distancia / velocidade
+
+print ("O tempo da viagem será de", tempo_da_viagem, "horas")
+
+-----------------------------------------------------------------------------------------------------
+
+7. Temperatura
+celsius = float(input("Qual é a temperatura que será convertida de Celsius para Fahrenheit? "))
+
+temp_em_fahrenheit = celsius * 9 / 5
+temp_em_fahrenheit2 = temp_em_fahrenheit + 32
+
+print ("O valor em Fahrenheit é", temp_em_fahrenheit2)
+
+
+-----------------------------------------------------------------------------------------------------
+
+8. Carro
+dias_alugados = int(input("Por quantos dias o carro foi alugado? "))
+kms_rodados = float(input("Neste tempo o carro percorreu quantos quilômetros? "))
+
+calculo = dias_alugados * 60
+calculo2 = kms_rodados * 0.15
+calculo3 = calculo + calculo2
+
+print ("O valor a pagar pelo aluguel do carro é de", calculo3, "reais")
+
+-----------------------------------------------------------------------------------------------------
+
+9. Cigarro
+cigarros_por_dia = int(input("Quantos cigarros você fuma por dia? "))
+anos_fumando = int(input("Por quantos anos você é fumante? "))
+
+calculo = cigarros_por_dia * 365 * anos_fumando * 10 / 3600
+
+
+print ("A quantidade de vida perdida é", calculo, "dias")

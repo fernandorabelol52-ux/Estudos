@@ -1,0 +1,1 @@
+Como o valor de a não é maior que b, e b não é maior que a, as duas condições if resultam em Falso e o Python simplesmente pula os comandos print, concluindo direto o codigo.
