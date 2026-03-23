@@ -13,3 +13,7 @@ lucro = receita - custo_produto
 print(f"O faturamento foi de R${receita:.2f}")
 print(f"O custo foi de R${custo_produto:.2f}")
 print(f"O lucro foi de R${lucro:.2f}")
+
+
+
+print("Fim do programa")
