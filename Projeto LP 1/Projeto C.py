@@ -61,3 +61,5 @@ if produtos:
         print(f"Nenhum produto gerou lucro positivo. O melhor resultado (ou menor prejuízo) foi de '{produto_maior_lucro['nome']}'.")
 else:
     print("\nNenhum produto foi cadastrado.")
+
+    
