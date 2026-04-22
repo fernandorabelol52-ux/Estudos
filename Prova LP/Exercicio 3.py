@@ -31,4 +31,3 @@ if total_alunnos > 0:
     print (f"Média das notas informadas: {media:.2f}")
 else:
     print("Nenhuma nota valida foi informada")
-aaaaaaaaaaaaaa
