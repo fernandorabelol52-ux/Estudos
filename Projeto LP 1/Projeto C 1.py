@@ -17,7 +17,6 @@ while True:
     print(f"Faturamento: R${receita:.2f}")
     print(f"Custo: R${custo_produto:.2f}")
     
-    
     if lucro > 0:
         print(f"\nO Produto de um lucro de R${lucro:.2f}")
     elif lucro < 0:
