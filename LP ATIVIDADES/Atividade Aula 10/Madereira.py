@@ -1,8 +1,8 @@
 total_tabuas = 400
 total_horas = 450
 
-lucro_cadeira = 180
-lucro_mesa = 320
+preço_cadeira = 180
+preço_mesa = 320
 
 tabuas_por_cadeira = 5
 horas_por_cadeira = 10
@@ -27,7 +27,7 @@ for cadeiras in range(max_cadeiras_possiveis + 1):
         
        
         if tabuas_gastas <= total_tabuas and horas_gastas <= total_horas:
-            lucro_atual = (cadeiras * lucro_cadeira) + (mesas * lucro_mesa)
+            lucro_atual = (cadeiras * preço_cadeira) + (mesas * preço_mesa)
             
             if lucro_atual > max_lucro:
                 max_lucro = lucro_atual
