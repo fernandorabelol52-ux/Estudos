@@ -1,4 +1,3 @@
-# Uma lista com vários números para testarmos
 numeros = [45, 12, 89, 4, 33, 7, 102, 1]
 
 # Assumimos que o primeiro número da lista é o menor de todos para começar a comparação
