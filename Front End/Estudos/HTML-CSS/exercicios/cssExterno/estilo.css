@@ -1,0 +1,25 @@
+@charset "UTF-8"; /*Definição de Caracteres*/
+
+body{
+    background-color:black ;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;    
+}
+h1{
+    text-align: center;    
+}
+h2{
+    text-align: center;
+}
+p{
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1.6;
+    color: aqua;
+    font-size: 25px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
