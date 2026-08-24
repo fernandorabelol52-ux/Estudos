@@ -1,0 +1,2 @@
+CREATE DATABASE bicho_grilo
+GO
