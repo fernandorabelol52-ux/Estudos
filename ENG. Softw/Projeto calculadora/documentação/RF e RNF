@@ -1,0 +1,21 @@
+Requisitos Funcionais
+
+RF01 - Operações Básicas: Realizar soma, subtração, multiplicação e divisão entre dois numeros.
+
+RF02 - Suporte e Decimais: Permitir entrada decimal, impedindo a inserção de mais de uma virgula/ponto por numero.
+
+RF03 - Limpar Operação: Resetar os valores e o estado atual do cálculo (Clear/C).
+
+RF04 - Tratamento de Exceção: Exibir uma mensagem de erro ao tentae dividir por 0.
+
+-----------------------------------------------
+
+Requisitos Não Funcionais
+
+RNF01 - Tecnologia/Plataforma: O sistema deve ser desenvolvido em C# utilizando o ecossistema .NET.
+
+RNF02 - Interface de Usuario: O sistema deve possuir uma Interface de Usuario(GUI) intuitiva, composta por botões numéricos, botões de operadores e um visor de resultados.
+
+RNF03 - Usabilidade e Resposta: As respostas aos cliques de botões e exibição dos calculos devem ser imediatas(baixo tempo de resposta).
+
+RNF04 - Manutenciabilidade: O codigo deve separar a logica de calculo(regrs de negocio) da interface com o usuario.

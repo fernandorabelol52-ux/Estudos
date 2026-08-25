@@ -1,0 +1,7 @@
+Precisamos da definição do projeto que iremos rpoduzir para conseguir realiza-lo.
+
+Para estruturarmos a nossa especificação, os requisitos são divididos em duas categorias:
+
+1.Requisitos Funcionais (RF): Descrevem as ações e comportamentos direitos do sistema. (ex: "O sistema deve calcular a soma de dois numeros reais")
+2.Requisitos Não Funcionais (RNF): Descrevem caracteristicas de qualidade, restrições e ambiente. (ex: "O sistema deve ser desenvolvido em C#", "A interface deve ser intuitiva").
+
